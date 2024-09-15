@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+  margin-top: 10%;
+    background-color: black;
+    color: #fbf2f2;
+}
+.card{
+    background-color: rgb(125, 94, 153);
+    width: 60vw;
+    height: 55vh;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(77, 78, 83, 0.358);
+    height: 10vh;
+}
+.profile{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+#search{
+    font: 1.5em sans-serif;
+    outline: none;
+    border: 0px;
+width: 20vw;
+height: 5vh;
+border-radius: 15px 0px 0px 15px;
+}
+#find{
+    border: 0px;
+    position: relative;
+    top: 0.1px;
+    width: 5vw;
+height: 5.2vh;
+border-radius: 0px 15px 15px 0px;
+}
+.pic img{
+margin-top: 7%;
+    border-radius: 50%;
+    width: 18vw;
+    height: 35vh;
+}
+.details{
+    font-size: 1.2em;
+    
+}
+.details .title{
+    color: #242323;
+    font: 3em sans-serif;
+   position: relative;
+   left: 50%;
+}
+.details span{
+   
+    padding-left: 10px;
+}
